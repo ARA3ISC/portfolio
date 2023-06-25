@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    /* background-image: url(img/hero.jpg);
+    background-size: cover; */
+    /* background-attachment: fixed; */
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    position: fixed;z-index: 999;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 10px; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    font-family: 'Diphylleia', serif;
+    text-decoration: none;
+
+}
+
+#logo-isco {
+    color: #FF0080;
+    font-family: 'Diphylleia', serif;
+}
+
+.sub-logo {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    font-size: 30px;
+    width: 100%;
+    margin: -20px 120px 0 0;
+    float: right;
+    text-align: right;
+}
+
+#folio {
+    color: #FF0080;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+}
+
+.menu li:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: #FF0080;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.menu li a {
+    /* Set initial properties */
+    transition: transform 0.3s;
+}
+
+.menu li a span {
+    /* Apply colored shadow to the text */
+    text-shadow: 0 0 15px rgba(255, 0, 128, 1);
+}
+
+.menu li a:hover {
+    /*Applyzoom-outeffect*/
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(255, 0, 128, 1);
+
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+    font-family: "Russo One", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 -20px 0;
+}
+
+svg text {
+    animation: stroke 4.5s infinite alternate;
+    stroke-width: 2;
+    stroke: #FF0080;
+    font-size: 73px;
+    -webkit-animation: stroke 4.5s infinite alternate;
+    text-shadow: 0 0 15px rgba(255, 0, 128, 1);
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(255, 255, 255, 0);
+        stroke: rgba(255, 0, 128, 1);
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+
+    70% {
+        fill: rgba(255, 255, 255, 0);
+        stroke: rgba(255, 0, 128, 1);
+    }
+
+    80% {
+        fill: rgba(255, 255, 255, 0);
+        stroke: rgba(255, 0, 128, 1);
+        stroke-width: 3;
+    }
+
+    100% {
+        fill: rgba(255, 255, 255, 1);
+        stroke: rgba(255, 0, 128, 0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+
+.wrapper {
+    background:transparent;
+}
+
+.main .hero {
+    margin: 0 auto !important;
+    background: #FF0080;
+    background: linear-gradient(to top, #FF0080 0%, #000000 71%);
+    height: 800px;
+    width: 90%;
+    border-radius: 20px;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+    margin: 80px 40px;
+    position: relative;
+}
+
+
